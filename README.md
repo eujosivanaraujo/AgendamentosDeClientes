@@ -1,41 +1,39 @@
 # 📌 AGENDAMENTOS DE CLIENTES PARA BARBEARIA
 
-Sistema de agendamento de clientes para barbearia desenvolvido em **Spring Boot & MySQL**.  
-O objetivo do projeto é fornecer uma API para gerenciar horários e registros de clientes de forma simples e escalável.
+# 💈 JAS Barbearia - Sistema de Agendamento  
 
-## ✂️ Funcionalidades do Sistema de Agendamento para Barbearia
+Um sistema desenvolvido em **Spring Boot & MySQL** para gerenciar agendamentos de clientes em uma barbearia.  
+O objetivo é fornecer uma API para gerenciar horários, serviços e registros de clientes de forma simples e escalável. 
 
-- 📅 **Gerenciamento de Agendamentos**
-  - Criar novos agendamentos para clientes
-  - Editar data, hora e serviço de um agendamento existente
-  - Cancelar agendamentos
+---
 
-- 👨‍💼 **Cadastro de Clientes**
-  - Registrar novos clientes com nome, telefone e e-mail
-  - Consultar informações do cliente
-  - Histórico de agendamentos de cada cliente
+## 🚀 Funcionalidades previstas
+- Cadastro de clientes  
+- Cadastro de serviços (ex.: corte de cabelo, barba, sobrancelha)  
+- Agendamento de horários  
+- Cancelamento e reagendamento  
+- Histórico de atendimentos  
+- Painel administrativo para barbeiros  
 
-- 💈 **Serviços da Barbearia**
-  - Cadastro de serviços (ex: corte de cabelo, barba, combo, química e hidratação)
-  - Definição de preços e duração de cada serviço
+---
 
-- 🕒 **Controle de Horários**
-  - Exibir horários disponíveis para marcação
-  - Impedir agendamentos em horários já ocupados
-  - Gerenciamento de agenda diária/semana/mês
+## 📌 Próximos passos do projeto
+1. Criar a estrutura inicial do projeto com **Spring Initializr**  
+2. Configurar o banco de dados **H2** para testes locais  
+3. Implementar a entidade **Cliente** e o repositório JPA  
+4. Criar a entidade **Serviço** (ex.: corte, barba)  
+5. Implementar a lógica de **Agendamento**  
+6. Desenvolver as APIs REST para cadastro e consulta  
+7. Criar interface simples (pode ser com **React**)
+8. Realizar testes unitários e de integração  
+9. Publicar no GitHub com documentação atualizada  
 
-- 👥 **Gestão de Funcionários**
-  - Associação de agendamentos a barbeiros específicos
-  - Consulta de disponibilidade de cada barbeiro
+---
 
-- 🔔 **Notificações (Futuro)**
-  - Envio de lembrete para clientes via e-mail/WhatsApp
-  - Notificação de confirmação/cancelamento
-
-- 📊 **Relatórios (Futuro)**
-  - Total de atendimentos por período
-  - Serviços mais solicitados
-  - Clientes mais recorrentes
+## ▶️ Como executar
+1. Clone este repositório:  
+   ```bash
+   git clone https://github.com/SEU-USUARIO/agendamentosdeclientes.git
 
 ---
 
