@@ -1,4 +1,4 @@
-# 📌 Agendamentos de Clientes
+# 📌 Agendamentos de Clientes para Barbearia
 
 Sistema de agendamento de clientes para barbearia desenvolvido em **Spring Boot**.  
 O objetivo do projeto é fornecer uma API para gerenciar horários e registros de clientes de forma simples e escalável.
