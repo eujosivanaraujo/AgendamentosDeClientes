@@ -6,6 +6,9 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.persistence.GenerationType;
 
+// Entity transforma uma classe em uma entidade no Banco de Dados
+// JPA - Java Persistence API
+
 @Entity
 @Table(name = "tb_Equipe")
 public class Equipe {
@@ -31,7 +34,7 @@ public class Equipe {
         this.barbeiro = barbeiro;
     }
 
-    
+
 
 
 }

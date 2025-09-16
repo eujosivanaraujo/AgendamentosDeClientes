@@ -3,6 +3,9 @@ package br.com.jasbarbearia.agendamentosdeclientes.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+// Entity transforma uma classe em uma entidade no Banco de Dados
+// JPA - Java Persistence API
+
 @Entity
 @Table(name = "tb_Agendamentos")
 public class Agendamento {
@@ -66,6 +69,16 @@ public class Agendamento {
 
     public void setDataHora(LocalDateTime dataHora) {
         this.dataHora = dataHora;
+    }
+
+    public Object getEmail() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getEmail'");
+    }
+
+    public void setEmail(Object email) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setEmail'");
     }
 }
 

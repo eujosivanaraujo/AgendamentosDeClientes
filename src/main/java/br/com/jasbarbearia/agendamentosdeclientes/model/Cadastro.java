@@ -6,6 +6,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+// Entity transforma uma classe em uma entidade no Banco de Dados
+// JPA - Java Persistence API
+
 @Entity
 @Table(name = "tb_Cadastros")
 public class Cadastro {
