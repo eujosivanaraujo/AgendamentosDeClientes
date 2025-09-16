@@ -1,6 +1,6 @@
 package br.com.jasbarbearia.agendamentosdeclientes.repository;
 
-import br.com.jasbarbearia.agendamentosdeclientes.model.Agendamento;
+import br.com.jasbarbearia.agendamentosdeclientes.model.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
