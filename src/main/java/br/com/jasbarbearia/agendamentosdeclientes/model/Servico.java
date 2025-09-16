@@ -19,21 +19,25 @@ public class Servico {
     private String sonbracelha;
     private String quimica;
     private String hidratacao;
+    private String combo;
     private String valor;
+    private String duracao;
 
     // Construtor vazio (Obrigatorio pelo JPA)
     public Servico() {}
 
     // Construtor com campos
     public Servico(Long id, String corte, String barba, String sonbracelha, String quimica,
-            String hidratacao, String valor) {
+            String hidratacao, String combo, String valor, String duracao) {
         this.id = id;
         this.corte = corte;
         this.barba = barba;
         this.sonbracelha = sonbracelha;
         this.quimica = quimica;
         this.hidratacao = hidratacao;
+        this.combo = combo;
         this.valor = valor;
+        this.duracao = duracao;
     }
 
     // Getters e Setters
@@ -85,12 +89,28 @@ public class Servico {
         this.hidratacao = hidratacao;
     }
 
+    public String getCombo(String combo) {
+        return combo;
+    }
+
+    public void setCombo(String combo) {
+        this.combo = combo;
+    }
+
     public String getValor() {
         return valor;
     }
 
     public void setValor(String valor) {
         this.valor = valor;
+    }
+
+    public String getDuracao() {
+        return duracao;
+    }
+
+    public void setDuracao(String duracao) {
+        this.duracao = duracao;
     }
 
 
