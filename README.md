@@ -1,4 +1,4 @@
-# 📌 AGENDAMENTOS DE CLIENTES PARA BARBEARIA
+# 📌 AGENDAMENTO DE CLIENTES PARA BARBEARIA
 
 # 💈 JAS Barbearia - Sistema de Agendamento  
 
@@ -7,25 +7,48 @@ O objetivo é fornecer uma API para gerenciar horários, serviços e registros d
 
 ---
 
-## 🚀 Funcionalidades previstas
-- Cadastro de clientes  
-- Cadastro de serviços (ex.: corte de cabelo, barba, sobrancelha)  
-- Agendamento de horários  
-- Cancelamento e reagendamento  
-- Histórico de atendimentos  
-- Painel administrativo para barbeiros  
+- 📅 **Gerenciamento de Agendamentos**
+  - Criar novos agendamentos para clientes
+  - Editar data, hora e serviço de um agendamento existente
+  - Cancelar agendamentos
+ 
+- 👨‍💼 **Cadastro de Clientes**
+  - Registrar novos clientes com nome, telefone e e-mail
+  - Consultar informações do cliente
+  - Histórico de agendamentos de cada cliente
+
+- 💈 **Serviços da Barbearia**
+  - Cadastro de serviços (ex: corte, barba, combo e etc...)
+  - Definição de preços e duração de cada serviço
+
+- 🕒 **Controle de Horários**
+  - Exibir horários disponíveis para marcação
+  - Impedir agendamentos em horários já ocupados
+  - Gerenciamento de agenda diária/semana/mês
+ 
+- 👥 **Gestão de Funcionários**
+  - Associação de agendamentos a barbeiros específicos
+  - Consulta de disponibilidade de cada barbeiro
+
+- 🔔 **Notificações**
+  - Envio de lembrete para clientes via e-mail/WhatsApp
+  - Notificação de confirmação/cancelamento
+
+- 📊 **Relatórios**
+  - Total de atendimentos por período
+  - Serviços mais solicitados
+  - Clientes mais recorrentes
 
 ---
 
-## 📌 Próximos passos do projeto
-1. Criar a estrutura inicial do projeto com **Spring Initializr**  
-2. Configurar o banco de dados **H2** para testes locais  
-3. Implementar a entidade **Cliente** e o repositório JPA  
-4. Criar a entidade **Serviço** (ex.: corte, barba)  
-5. Implementar a lógica de **Agendamento**  
+## 📌 Detalhes dos passos do projeto
+1. Criar a estrutura inicial do projeto 
+2. Configurar o banco de dados para testes
+3. Implementar as entidadedes e o repositório JPA   
+5. Implementar a lógica de agendamentos
 6. Desenvolver as APIs REST para cadastro e consulta  
-7. Criar interface simples (pode ser com **React**)
-8. Realizar testes unitários e de integração  
+7. Criar interface simples
+8. Realizar testes 
 9. Publicar no GitHub com documentação atualizada  
 
 ---
@@ -42,14 +65,15 @@ O objetivo é fornecer uma API para gerenciar horários, serviços e registros d
 - Spring Boot
 - Maven
 - MySQL 
-- Lombok
-- Nodejs
 - Java
 
 ---
+```bash
+## ✍️ Autor: Josivan Araújo
+"Este projeto estar em desenvolvimento e estará sendo atualizado!"
+---
 
 ## 📂 Estrutura do Projeto
-```bash
 agendamentosdeclientes/
  ├── src/
  │   ├── main/
